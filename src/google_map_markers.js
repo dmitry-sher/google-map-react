@@ -261,7 +261,7 @@ export default class GoogleMapMarkers extends Component {
     });
 
     return (
-      <div style={mainElementStyle}>
+      <div className="google-map-markers" style={mainElementStyle}>
         {markers}
       </div>
     );
