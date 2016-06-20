@@ -401,6 +401,7 @@ export default class GoogleMap extends Component {
 
           const div = document.createElement('div');
           this.div = div;
+          div.className = 'google-map-markers-parent';
           div.style.backgroundColor = 'transparent';
           div.style.position = 'absolute';
           div.style.left = '0px';
